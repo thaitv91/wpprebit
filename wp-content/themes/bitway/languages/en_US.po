@@ -1,0 +1,1147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inspira Theme v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-21 11:29+0700\n"
+"Last-Translator: admin <vhoanggiavuong@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../../../\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ inspira
+#: archive.php:15
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+# @ inspira
+#: archive.php:18
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+# @ inspira
+#: archive.php:18
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+# @ inspira
+#: archive.php:21
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+# @ inspira
+#: archive.php:21
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+# @ inspira
+#: archive.php:24
+msgid "Archives"
+msgstr ""
+
+# @ inspira
+#: author.php:13
+#, php-format
+msgid "All posts by: %s"
+msgstr ""
+
+# @ inspira
+#: category.php:12
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+# @ inspira
+#: comments.php:21
+msgid "&larr; Older Comments"
+msgstr ""
+
+# @ inspira
+#: comments.php:22
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+# @ inspira
+#: comments.php:27
+msgid "Comments are closed."
+msgstr ""
+
+# @ inspira
+#: comments.php:38
+msgid "Leave a reply"
+msgstr ""
+
+# @ inspira
+#: comments.php:40
+msgid "Name *"
+msgstr ""
+
+# @ inspira
+#: comments.php:41
+msgid "Email *"
+msgstr ""
+
+# @ inspira
+#: comments.php:43
+msgid "Comment *"
+msgstr ""
+
+# @ inspira
+#: comments.php:44
+msgid "Send Message"
+msgstr ""
+
+# @ inspira
+#: content-audio.php:23 content-gallery.php:40 content-image.php:56
+#: content-video.php:24 content.php:16 single.php:104
+msgid "By:"
+msgstr ""
+
+# @ inspira
+#: content-audio.php:31 content-gallery.php:48 content-image.php:72
+#: content-video.php:32 content.php:24 single.php:112 single.php:119
+msgid "0 comment"
+msgstr ""
+
+# @ inspira
+#: content-audio.php:31 content-gallery.php:48 content-image.php:72
+#: content-video.php:32 content.php:24 single.php:112 single.php:119
+msgid "1 comment"
+msgstr ""
+
+# @ inspira
+#: content-audio.php:31 content-gallery.php:48 content-image.php:72
+#: content-video.php:32 content.php:24 single.php:112 single.php:119
+msgid "% comments"
+msgstr ""
+
+# @ inspira
+#: framework/meta-boxes.php:25
+msgid "Format Details"
+msgstr ""
+
+# @ inspira
+#: framework/meta-boxes.php:39
+msgid "Image"
+msgstr ""
+
+# @ inspira
+#: framework/meta-boxes.php:53
+msgid "Gallery"
+msgstr ""
+
+# @ inspira
+#: framework/meta-boxes.php:65
+msgid "Quote"
+msgstr ""
+
+# @ inspira
+#: framework/meta-boxes.php:81
+msgid "Author"
+msgstr ""
+
+# @ inspira
+#: framework/meta-boxes.php:93
+msgid "Audio"
+msgstr ""
+
+# @ inspira
+#: framework/meta-boxes.php:111
+msgid "Video"
+msgstr ""
+
+# @ inspira
+#: framework/meta-boxes.php:137
+msgid "Page Details"
+msgstr ""
+
+# @ inspira
+#: framework/meta-boxes.php:151
+msgid "Page Subtitle"
+msgstr ""
+
+# @ inspira
+#: framework/widget/flickr.php:21
+msgid "Displays your latest Flickr feed."
+msgstr ""
+
+# @ inspira
+#: framework/widget/flickr.php:49
+msgid "Flickr"
+msgstr ""
+
+# @ inspira
+#: framework/widget/flickr.php:173
+msgid "Flickr Name"
+msgstr ""
+
+# @ inspira
+#: framework/widget/flickr.php:193
+msgid "Flickr Type:"
+msgstr ""
+
+# @ inspira
+#: framework/widget/flickr.php:201
+msgid "user"
+msgstr ""
+
+# @ inspira
+#: framework/widget/flickr.php:205
+msgid "group"
+msgstr ""
+
+# @ inspira
+#: framework/widget/flickr.php:229
+msgid "Flickr ID"
+msgstr ""
+
+# @ inspira
+#: framework/widget/flickr.php:253
+msgid "Number of photos:"
+msgstr ""
+
+# @ mint
+#: framework/widget/instagram.php:15
+msgid "Latest instagram widget "
+msgstr ""
+
+# @ mint
+#: framework/widget/instagram.php:23
+msgid "Instagram Widget"
+msgstr ""
+
+# @ mint
+#: framework/widget/instagram.php:179
+msgid "Instagram"
+msgstr ""
+
+# @ mint
+#: framework/widget/instagram.php:179
+msgid "305801553.467ede5.94e8f22591af44eea81bdbd1ca3bff04"
+msgstr ""
+
+# @ mint
+#: framework/widget/instagram.php:179
+msgid "e659391279a64365a13bfb26b4caf15d"
+msgstr ""
+
+# @ mint
+# @ inspira
+#: framework/widget/instagram.php:187 framework/widget/tabbed.php:183
+msgid "Title:"
+msgstr ""
+
+# @ mint
+#: framework/widget/instagram.php:195
+msgid " Access Token:"
+msgstr ""
+
+# @ mint
+#: framework/widget/instagram.php:203
+msgid "Client ID:"
+msgstr ""
+
+# @ mint
+#: framework/widget/instagram.php:211
+msgid "Number of feed:"
+msgstr ""
+
+# @ inspira
+#: framework/widget/tabbed.php:60
+msgid "Display popular posts, recent posts, recent commets, and tags in an animated tabs."
+msgstr ""
+
+# @ inspira
+#: framework/widget/tabbed.php:62
+msgid "Inspira Tab Widget"
+msgstr ""
+
+# @ inspira
+#: framework/widget/tabbed.php:189
+msgid "Popular posts:"
+msgstr ""
+
+# @ inspira
+#: framework/widget/tabbed.php:191 framework/widget/tabbed.php:203
+msgid "Tab name: "
+msgstr ""
+
+# @ inspira
+#: framework/widget/tabbed.php:192
+msgid "Show number:"
+msgstr ""
+
+# @ inspira
+#: framework/widget/tabbed.php:201
+msgid "Recent posts:"
+msgstr ""
+
+# @ inspira
+#: framework/widget/tabbed.php:204
+msgid "Show number: "
+msgstr ""
+
+# @ inspira
+#: functions.php:57
+msgid "Primary Menu"
+msgstr ""
+
+# @ inspira
+#: functions.php:58
+msgid "One Page Menu"
+msgstr ""
+
+# @ inspira
+#: functions.php:59
+msgid "Footer Menu"
+msgstr ""
+
+# @ inspira
+#: functions.php:131
+msgid "Primary Sidebar"
+msgstr ""
+
+# @ inspira
+#: functions.php:133
+msgid "Appears in the sidebar section of the site."
+msgstr ""
+
+# @ inspira
+#: functions.php:140
+msgid "Footer One Widget Area"
+msgstr ""
+
+# @ inspira
+#: functions.php:142 functions.php:152 functions.php:162 functions.php:172
+msgid "Footer Widget that appears on the Footer."
+msgstr ""
+
+# @ inspira
+#: functions.php:150
+msgid "Footer Two Widget Area"
+msgstr ""
+
+# @ inspira
+#: functions.php:160
+msgid "Footer Three Widget Area"
+msgstr ""
+
+# @ inspira
+#: functions.php:170
+msgid "Footer Fourth Widget Area"
+msgstr ""
+
+# @ inspira
+#: functions.php:179
+msgid "Sliding One Widget Area"
+msgstr ""
+
+# @ inspira
+#: functions.php:181 functions.php:191 functions.php:201 functions.php:211
+msgid "Sliding Widget that appears on the Top."
+msgstr ""
+
+# @ inspira
+#: functions.php:189
+msgid "Sliding Two Widget Area"
+msgstr ""
+
+# @ inspira
+#: functions.php:199
+msgid "Sliding Three Widget Area"
+msgstr ""
+
+# @ inspira
+#: functions.php:209
+msgid "Sliding Fourth Widget Area"
+msgstr ""
+
+# @ inspira
+#: functions.php:221
+msgid "Home"
+msgstr ""
+
+# @ inspira
+#: functions.php:380
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+# @ inspira
+#: functions.php:460
+msgid "type to search and hit enter"
+msgstr ""
+
+# @ inspira
+#: functions.php:483
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+# @ wpb
+#: functions.php:515
+msgid "Fullwidth"
+msgstr ""
+
+# @ wpb
+# @ inspira
+#: functions.php:518 vc_shortcode.php:486 vc_shortcode.php:981
+msgid "No"
+msgstr ""
+
+# @ wpb
+# @ inspira
+#: functions.php:519 vc_shortcode.php:488 vc_shortcode.php:983
+msgid "Yes"
+msgstr ""
+
+# @ wpb
+#: functions.php:521
+msgid "Select Fullwidth or not, Default: No fullwidth"
+msgstr ""
+
+# @ wpb
+#: functions.php:529 functions.php:532
+msgid "Container Class"
+msgstr ""
+
+# @ inspira
+#: functions.php:649
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+# @ inspira
+#: functions.php:702
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+# @ inspira
+#: header-onepage.php:62 header.php:64
+msgid "Phone:"
+msgstr ""
+
+# @ inspira
+#: header-onepage.php:67 header.php:69
+msgid "Email:"
+msgstr ""
+
+# @ inspira
+#: index.php:11
+msgid "Blog"
+msgstr ""
+
+# @ inspira
+#: page-templates/template-blog-fullwidth.php:43
+#: page-templates/template-blog-left-sidebar.php:94
+#: page-templates/template-blog.php:85 search.php:34
+msgid "Nothing Found Here!"
+msgstr ""
+
+# @ inspira
+#: page-templates/template-canvas.php:15
+#: page-templates/template-onepage.php:26 page.php:44
+msgid "Page Canvas For Page Builder"
+msgstr ""
+
+# @ inspira
+#: search.php:12
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+# @ inspira
+#: shortcodes.php:461
+msgid "Read More"
+msgstr ""
+
+# @ theway
+#: tag.php:11
+#, php-format
+msgid "Tags: %s"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:9
+msgid " Heading"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:29
+msgid "Text"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:42
+msgid "Element Tag"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:47
+msgid "h1"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:49
+msgid "h2"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:51
+msgid "h3"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:53
+msgid "h4"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:55
+msgid "h5"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:57
+msgid "h6"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:59
+msgid "p"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:61
+msgid "div"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:64
+msgid "Section Element Tag"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:77
+msgid "left"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:79
+msgid "right"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:81
+msgid "center"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:83
+msgid "justify"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:87
+msgid "Section Overlay"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:98
+msgid "Font Size"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:115
+msgid "Color"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:132
+msgid "Margin Bottom"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:149
+msgid "Class Extra"
+msgstr ""
+
+# @ default
+#: vc_shortcode.php:170
+msgid " Button"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:190
+msgid "Button Text"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:207
+msgid "Button Link"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:225
+msgid "Button Type"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:233
+msgid "Primary"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:235 vc_shortcode.php:886
+msgid "Info"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:237 vc_shortcode.php:888
+msgid "Success"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:239 vc_shortcode.php:890
+msgid "Warning"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:241
+msgid "Danger"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:243
+msgid "Inverse"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:257
+msgid "Button Size"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:263
+msgid "Regular size"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:265
+msgid "Extra Large"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:267
+msgid "Large"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:269
+msgid "Small"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:271
+msgid "Mini"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:286
+msgid "Line Solid"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:299
+msgid "Slider Text"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:322
+msgid "Do follow this struct."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:333
+msgid "Gallery Post"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:356
+msgid "Video Post"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:369
+msgid "Ex: http://player.vimeo.com/video/88883554 or http://www.youtube.com/embed/eP2VWNtU5rw"
+msgstr ""
+
+# @ default
+#: vc_shortcode.php:381
+msgid "Call To Action"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:391 vc_shortcode.php:787
+msgid "Content"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:394
+msgid "Content Call"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:409 vc_shortcode.php:959
+msgid "Link Button"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:423
+msgid "Latest News"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:433
+msgid "Number Post"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:436
+msgid "Show Number Blog Post."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:448
+msgid "Latest Project"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:458
+msgid "Number Projects"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:467
+msgid "Number Item Slider"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:470
+msgid "Recommended: 2 or 3 or 4"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:480
+msgid "Show Title Bottom ?"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:502
+msgid "Portfolio Filter"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:515
+msgid "Text Filter Show All Portfolio."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:521
+msgid "Show Number Project"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:524
+msgid "Show All Number Project."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:530
+msgid "Number Columns"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:534
+msgid "4"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:536
+msgid "3"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:538
+msgid "2"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:551
+msgid " Clients Logo"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:576
+msgid "Our Team"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:589
+msgid "Avarta of member, Recomended Size: 420 x 420"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:595
+msgid "Name"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:598
+msgid "Member's Name"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:604
+msgid "Job"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:607
+msgid "Member's job."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:622
+msgid "Icon 1"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:625 vc_shortcode.php:643 vc_shortcode.php:661
+#: vc_shortcode.php:679
+msgid "Find here: <a target='_blank' href='http://fontawesome.io/icons/'>http://fontawesome.io/icons/</a>"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:634 vc_shortcode.php:652 vc_shortcode.php:670
+#: vc_shortcode.php:688
+msgid "Url."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:640
+msgid "Icon 2"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:658
+msgid "Icon 3"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:676
+msgid "Icon 4"
+msgstr ""
+
+# @ default
+#: vc_shortcode.php:700
+msgid "Services Box"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:713
+msgid "Find here: <a target='_blank' href='https://icomoon.io/app/'>https://icomoon.io/app/</a>"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:719
+msgid "Title Service"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:722
+msgid "Title display in Services box."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:728
+msgid "Content Service"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:731
+msgid "About your Services."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:737
+msgid "Background Circle"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:746
+msgid "Link Out"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:749
+msgid "Link to Service."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:755
+msgid "Type Box"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:759
+msgid "Style 1: Big Icon"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:761
+msgid "Style 2: Small Icon"
+msgstr ""
+
+# @ default
+#: vc_shortcode.php:777
+msgid "Testimonial Item"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:805
+msgid "Job or Address"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:808
+msgid "Display after name."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:814
+msgid "Avarta"
+msgstr ""
+
+# @ default
+#: vc_shortcode.php:829
+msgid "Testimonial Silder"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:848
+msgid "Color Text"
+msgstr ""
+
+# @ default
+#: vc_shortcode.php:863
+msgid "Message Box"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:882
+msgid "Message Type"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:892
+msgid "Error"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:904
+msgid " Pricing Table"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:914
+msgid "Title Pricing"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:917
+msgid "Title display in Pricing Table."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:923
+msgid "Price Pricing"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:926
+msgid "Price display in Pricing Table."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:932
+msgid "Per Time"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:935
+msgid "Price per time in Pricing Table."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:941
+msgid "Detail Pricing"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:944
+msgid "Content Pricing Table."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:950
+msgid "Label Button"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:953
+msgid "Text display in button."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:962
+msgid "Link in button."
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:968
+msgid "Table Width (%)"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:971
+msgid "Style width Pricing Table. Ex: 4 column - 25%"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:977
+msgid "Featured Pricing?"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:992
+msgid "Style Table"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:996
+msgid "Style 1: Light"
+msgstr ""
+
+# @ inspira
+#: vc_shortcode.php:998
+msgid "Style 2: Dark"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1012
+msgid "Google Map"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1022
+msgid "ID Map"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1025
+msgid "Please enter ID Map, map-canvas1, map-canvas2, map-canvas3, ..etc"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1031
+msgid "Height Map"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1034
+msgid "Please enter number height Map, 300, 350, 380, ..etc. Default: 420."
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1040
+msgid "Latitude"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1043
+msgid "Please enter <a href='http://www.latlong.net/'>Latitude</a> google map"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1049
+msgid "Longitude"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1052
+msgid "Please enter <a href='http://www.latlong.net/'>Longitude</a> google map"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1059
+msgid "Zoom Map"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1062
+msgid "Please enter Zoom Map, Default: 15"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1068
+msgid "Map color"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1071
+msgid "Choose Map color"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1077
+msgid "Company Name"
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1080
+msgid "Please enter Title."
+msgstr ""
+
+# @ dotted
+#: vc_shortcode.php:1090
+msgid "Icon Map marker, 47 x 68"
+msgstr ""
+
+# @ js_composer
+#: vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr ""
+
+# @ js_composer
+#: vc_templates/vc_accordion_tab.php:13
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+# @ js_composer
+#: vc_templates/vc_tab.php:9
+msgid "Empty tab. Edit page to add content here."
+msgstr ""

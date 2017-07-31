@@ -1,0 +1,341 @@
+<?php
+global $theme_option;
+/*
+ * Template Name: HOME PAGE
+ * Description: A Page Template with a Page Builder design.
+ */
+get_header(); ?>
+<section style="background: #182556 url('<?php the_field('background_header'); ?>') no-repeat center;background-size: cover;" class="section section_01" id="section1">
+    <div class="table">
+        <div class="cell text-center">
+            <h2 class="item xlarge-title text-center"><strong><?php the_field('title_header'); ?></strong></h2>
+            <h1 class="item page-title text-center"></h1>
+            <div class="item item-box">
+            <p class=" small-title text-center"><?php the_field('sub_header_1'); ?></p>
+            <p class=" small-title text-center"><?php the_field('sub_header_2'); ?></p>
+            <p class=" small-title text-center"><?php the_field('sub_header_3'); ?></p>
+        </div>
+            <a class="button round item" href="<?php the_field('button_link'); ?>" id="sign-up-button">Create a Bitway Account</a>
+        </div>
+    </div>
+</section>
+<section class="section section_02" id="section2">
+    <div class="row large-collapse">
+        <h3 class="large-title text-center">You have the opportunity to help people live better lives</h3>
+        <div class="large-6 large-push-3 column">
+            <div class="svg-icon">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                     width="375px" height="375px" viewBox="0 0 375 375" enable-background="new 0 0 375 375" xml:space="preserve">
+                <circle display="none" opacity="0.5" fill="#1F2B5B" enable-background="new    " cx="248.667" cy="249.667" r="196.333"/>
+                <circle fill="none" stroke="#14285C" stroke-width="5" stroke-miterlimit="10" cx="187.5" cy="188.5" r="135.5"/>
+                <circle fill="none" stroke="#14285C" stroke-width="5" stroke-miterlimit="10" cx="187.5" cy="186.833" r="155.167"/>
+                <circle fill="none" stroke="#14285C" stroke-width="5" stroke-miterlimit="10" cx="187.167" cy="187.833" r="176.167"/>
+                <path fill="#FFFFFF" d="M147.133,222.27v-70.41c0-5.989,0.391-11.426,1.172-16.309s2.164-9.537,4.15-13.965
+                    c1.985-4.427,4.541-8.154,7.666-11.182s7.112-5.42,11.963-7.178c4.85-1.758,10.465-2.637,16.846-2.637
+                    c26.302,0,39.453,17.09,39.453,51.27v6.836h-14.16v-10.156c0-5.403-0.407-10.188-1.221-14.355
+                    c-0.814-4.166-2.165-7.925-4.053-11.279c-1.889-3.353-4.509-5.923-7.861-7.715c-3.354-1.79-7.406-2.686-12.158-2.686
+                    c-4.297,0-8.041,0.603-11.23,1.807c-3.19,1.206-5.778,2.849-7.764,4.932c-1.986,2.084-3.581,4.688-4.785,7.812
+                    c-1.205,3.125-2.035,6.396-2.49,9.814c-0.456,3.418-0.684,7.309-0.684,11.67v77.051c0,5.534,0.391,10.336,1.172,14.404
+                    c0.781,4.069,2.132,7.812,4.053,11.23c1.92,3.418,4.703,6.022,8.35,7.812c3.646,1.791,8.105,2.686,13.379,2.686
+                    c4.752,0,8.805-0.895,12.158-2.686c3.353-1.79,5.973-4.378,7.861-7.764c1.888-3.385,3.238-7.161,4.053-11.328
+                    c0.813-4.166,1.221-8.951,1.221-14.355v-11.523h14.16v8.203c0,5.925-0.358,11.328-1.074,16.211
+                    c-0.717,4.883-2.002,9.555-3.857,14.014c-1.855,4.46-4.248,8.203-7.178,11.23s-6.706,5.437-11.328,7.227
+                    c-4.623,1.79-9.961,2.686-16.016,2.686c-6.511,0-12.224-0.896-17.139-2.686c-4.916-1.79-8.92-4.199-12.012-7.227
+                    c-3.093-3.027-5.6-6.771-7.52-11.23c-1.921-4.459-3.256-9.114-4.004-13.965C147.507,233.68,147.133,228.26,147.133,222.27z"/>
+                <path fill="none" stroke="#4FBDCB" stroke-width="5" stroke-miterlimit="10" d="M54.871,106.253
+                    C82.1,61.531,131.313,31.667,187.5,31.667c58.492,0,109.426,32.365,135.868,80.164"/>
+                <path fill="none" stroke="#FDB077" stroke-width="5" stroke-miterlimit="10" d="M187.167,363.997
+                    C89.872,363.997,11,285.124,11,187.83c0-31.674,8.359-61.395,22.991-87.079"/>
+                <path fill="none" stroke="#F85F82" stroke-width="5" stroke-miterlimit="10" d="M305.024,121.012
+                    C316.459,140.883,323,163.928,323,188.5c0,74.835-60.665,135.5-135.5,135.5"/>
+                </svg>
+            </div>
+        </div><!--large-6-->
+        <div class="large-3 large-pull-6 column text-center">
+            <img src="<?php bloginfo('template_url')?>/images/yellow-pin.png" alt="" class="mob-icon"/>
+            <svg class="top-line-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                 width="336px" height="46.125px" viewBox="14.75 46.125 356 46.125" enable-background="new 14.75 46.125 356 46.125"
+                 xml:space="preserve">
+                <polyline fill="none" stroke="#45547A" stroke-width="3" stroke-miterlimit="10" points="52.875,54.333 300.333,54.333
+                    364.25,87.375 "/>
+                <circle fill="none" stroke="#FDB077" stroke-width="3" stroke-miterlimit="10" cx="31.5" cy="54.333" r="3.524"/>
+            </svg>
+            <h5 class="small-title text-center animate_">Send Help</h5>
+            <p class="text animate_">After you have created an account with Bitway, you can help people from all over the world. Your funds will join a large pool of money from other members and begin earning interest up to 1.5% daily.</p>
+        </div><!--large-3-->
+        <div class="large-3 column text-center">
+            <img src="<?php bloginfo('template_url')?>/images/blue-pin.png" alt="" class="mob-icon"/>
+            <svg class="top-line-svg" style="margin-left: -90px;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="336px" height="46px" viewBox="19.75 46.25 347 46" enable-background="new 19.75 46.25 347 46" xml:space="preserve">
+                <polyline fill="none" stroke="#45547A" stroke-width="3" stroke-miterlimit="10" points="339.351,54.333 91.893,54.333
+                    27.976,87.375 "/>
+                <circle fill="none" stroke="#4FBDCB" stroke-width="3" stroke-miterlimit="10" cx="357.726" cy="54.333" r="3.524"/>
+            </svg>
+            <h5 class="small-title text-center animate_">Get Help</h5>
+            <p class="text animate_">If you need financial help, the Bitway community is ready to assist. After helping others through Bitway, you can ask for help. The more you have contributed, the more help you will be able to receive.</p>
+        </div><!--large-3-->
+    </div>
+</section>
+<section class="section section_03" id="section3">
+    <div class="row">
+        <h3 class="large-title text-center">Live Transactions</h3>
+        <div class="small-12 column">
+            <div class="line-trans animate_">
+                <div class="pull-left">
+                    <h1 class="one"><span><img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""> SH</span></h1>
+                </div>
+                <p class="text">Transfer <span class="green-color-text">0.738100 BTC</span> 15 minutes ago</p>
+                <span class="text_span">sdfsdfjdsfhdse3432zla0jlkad</span>
+                <div class="pull-right">
+                    <h1 class="one"><span>GH <img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""></span></h1>
+                </div>              
+            </div>
+            <div class="line-trans animate_">
+                <div class="pull-left">
+                    <h1 class="one"><span><img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""> SH</span></h1>
+                </div>
+                <p class="text">Transfer <span class="green-color-text">0.738100 BTC</span> 15 minutes ago</p>
+                <span class="text_span">sdfsdfjdsfhdse3432zla0jlkad</span>
+                <div class="pull-right">
+                    <h1 class="one"><span>GH <img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""></span></h1>
+                </div>              
+            </div>
+            <div class="line-trans animate_">
+                <div class="pull-left">
+                    <h1 class="one"><span><img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""> SH</span></h1>
+                </div>
+                <p class="text">Transfer <span class="green-color-text">0.738100 BTC</span> 15 minutes ago</p>
+                <span class="text_span">sdfsdfjdsfhdse3432zla0jlkad</span>
+                <div class="pull-right">
+                    <h1 class="one"><span>GH <img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""></span></h1>
+                </div>              
+            </div>
+            <div class="line-trans animate_">
+                <div class="pull-left">
+                    <h1 class="one"><span><img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""> SH</span></h1>
+                </div>
+                <p class="text">Transfer <span class="green-color-text">0.738100 BTC</span> 15 minutes ago</p>
+                <span class="text_span">sdfsdfjdsfhdse3432zla0jlkad</span>
+                <div class="pull-right">
+                    <h1 class="one"><span>GH <img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""></span></h1>
+                </div>              
+            </div>
+            <div class="line-trans animate_">
+                <div class="pull-left">
+                    <h1 class="one"><span><img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""> SH</span></h1>
+                </div>
+                <p class="text">Transfer <span class="green-color-text">0.738100 BTC</span> 15 minutes ago</p>
+                <span class="text_span">sdfsdfjdsfhdse3432zla0jlkad</span>
+                <div class="pull-right">
+                    <h1 class="one"><span>GH <img src="<?php bloginfo('template_url')?>/images/i-ava-trans.png" alt=""></span></h1>
+                </div>              
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section section_04" id="section4">
+    <div class="row">
+        <h3 class="large-title text-center">How Do I Get Started?</h3>    
+        <div class="large-6 column">
+            <div class="content-holder text-center left_">
+                <img src="<?php bloginfo('template_url')?>/images/yellow-pin.png" alt="" class="mob-icon"/>
+                <h5 class="small-title text-center seq_">STEP 1: Sign Up</h5>
+                <p class="text seq_">You make the first move – Sign Up.<br>
+                We will be there to greet you.</p>
+                <div class="icon-holder table">
+                    <div class="svg-wrap-bg"></div>
+                    <div class="cell">
+                        <svg  class="laptop" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="276px" height="152px" viewBox="121.5 163.5 276 152" enable-background="new 121.5 163.5 276 152" xml:space="preserve">
+                        <path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+                        M127.129,299.581v5.213c0,3.45,2.797,6.247,6.247,6.247h249.258c3.45,0,6.247-2.797,6.247-6.247v-5.213H127.129z"/>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+                        M366.457,299.581V174.489c0-2.754-2.232-4.986-4.986-4.986H154.54c-2.754,0-4.986,2.232-4.986,4.986V299.58h216.903V299.581z"/>
+                        <polygon fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+                        259.044,179.621 259.044,179.621 259.044,179.621 "/>
+                        <rect x="241.385" y="299.581" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="34.904" height="3.658"/>
+                        <path fill="none" stroke="#496186" stroke-width="3" stroke-miterlimit="10" d="M182.411,242h151.557
+                        c2.16,0,3.911,1.612,3.911,3.601V265.4c0,1.989-1.751,3.6-3.911,3.6H182.411c-2.16,0-3.911-1.611-3.911-3.6v-19.799
+                        C178.5,243.612,180.251,242,182.411,242z"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="192.756" y1="251.554" x2="192.756" y2="258.554"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="196.256" y1="255.054" x2="189.256" y2="255.054"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="195.306" y1="252.655" x2="190.207" y2="257.452"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="195.154" y1="257.603" x2="190.358" y2="252.504"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="203.756" y1="251.554" x2="203.756" y2="258.554"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="207.256" y1="255.054" x2="200.256" y2="255.054"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="206.306" y1="252.655" x2="201.207" y2="257.452"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="206.154" y1="257.603" x2="201.358" y2="252.504"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="214.756" y1="251.554" x2="214.756" y2="258.554"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="218.256" y1="255.054" x2="211.256" y2="255.054"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="217.306" y1="252.655" x2="212.207" y2="257.452"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="217.154" y1="257.603" x2="212.358" y2="252.504"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="225.756" y1="251.554" x2="225.756" y2="258.554"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="229.256" y1="255.054" x2="222.256" y2="255.054"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="228.306" y1="252.655" x2="223.207" y2="257.452"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="228.154" y1="257.603" x2="223.358" y2="252.504"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="236.756" y1="251.554" x2="236.756" y2="258.554"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="240.256" y1="255.054" x2="233.256" y2="255.054"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="239.306" y1="252.655" x2="234.207" y2="257.452"/>
+                        <line fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="239.154" y1="257.603" x2="234.358" y2="252.504"/>
+                        <path fill="none" stroke="#496186" stroke-width="3" stroke-miterlimit="10" d="M182.227,203.834h151.557
+                        c2.16,0,3.911,1.612,3.911,3.601v19.799c0,1.989-1.751,3.6-3.911,3.6H182.227c-2.16,0-3.911-1.611-3.911-3.6v-19.799
+                        C178.316,205.446,180.067,203.834,182.227,203.834z"/>
+                        <polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+                        318,256 320.5,258.5 327,252 "/>
+                        <polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+                        318,218.084 320.5,220.584 327,214.084 "/>
+                        <circle fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="194.345" cy="214.334" r="3.167"/>
+                        <path fill="none" stroke="#F06083" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+                        M188.267,223.5L188.267,223.5c0-1.235,1.001-2,2.236-2h7.517c1.235,0,2.236,0.765,2.236,2l0,0"/>
+                        </svg>
+                    </div>
+                </div>
+            </div><!--content-holder-->
+        </div>
+        <div class="large-6 column">
+            <div class="content-holder text-center right_">
+                <div class="icon-holder table">
+                    <div class="svg-wrap-bg"></div>
+                    <div class="cell">
+                        <svg class="graff_" version="1.1" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+                             viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                            <g>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="3.1" y1="96.7" x2="96.9" y2="96.7"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="3.6" y1="14.4" x2="3.6" y2="97"/>
+                                <path fill="none" stroke="#FDB177" stroke-width="2" stroke-miterlimit="10" d="M32,73H21.2c-1.7,0-3,1.3-3,3v10.9c0,1.7,1.3,3,3,3
+                                    h10.9c1.7,0,3-1.4,2.9-3V76C35,74.3,33.7,73,32,73z"/>
+                                <path fill="none" stroke="#F85F82" stroke-width="2" stroke-miterlimit="10" d="M56.3,51.8H45.4c-1.7,0-3,1.3-3,3v32
+                                    c0,1.7,1.3,3,3,3h10.9c1.7,0,3-1.4,3-3v-32C59.2,53.2,57.9,51.8,56.3,51.8z"/>
+                                <path fill="none" stroke="#52C4D0" stroke-width="2" stroke-miterlimit="10" d="M80.4,31H69.6c-1.7,0-3,1.3-3,3v52.8
+                                    c0,1.7,1.3,3,3,3h10.9c1.7,0,3-1.4,3-3V34C83.4,32.3,82.1,31,80.4,31z"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="6.5" y1="29" x2="9.2" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="10.7" y1="29" x2="13.5" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="14.9" y1="29" x2="17.7" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="19.2" y1="29" x2="22" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="23.4" y1="29" x2="26.2" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="27.7" y1="29" x2="30.5" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="31.9" y1="29" x2="34.7" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="36.2" y1="29" x2="38.9" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="40.4" y1="29" x2="43.2" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="44.7" y1="29" x2="47.4" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="48.9" y1="29" x2="51.7" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="53.1" y1="29" x2="55.9" y2="29"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="6.5" y1="53.6" x2="9.2" y2="53.6"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="10.7" y1="53.6" x2="13.5" y2="53.6"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="14.9" y1="53.6" x2="17.7" y2="53.6"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="19.2" y1="53.6" x2="22" y2="53.6"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="23.4" y1="53.6" x2="26.2" y2="53.6"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="27.7" y1="53.6" x2="30.5" y2="53.6"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="6.5" y1="74" x2="9.2" y2="74"/>
+                                <line fill="none" stroke="#5F7191" stroke-miterlimit="10" x1="10.7" y1="74" x2="13.5" y2="74"/>
+                                <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="95.2,3.4 82.5,18.3 67.3,18.3 57.3,37.5
+                                    43.2,37.5 32.7,60.4 16.9,60.4   "/>
+                                <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M89.1,3.9"/>
+                                <polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="88.6,3 95.5,3 95.5,9.7   "/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <img src="<?php bloginfo('template_url')?>/images/red-pin.png" alt="" class="mob-icon"/>
+                <h5 class="small-title text-center seq_">STEP 2: Begin Helping Others</h5>
+                <p class="text seq_">Start helping other people from all over the world while earning a consistent profit.</p>
+            </div>
+        </div>
+        <div class="small-12 column">
+            <div class="content-holder text-center">
+                <img src="<?php bloginfo('template_url')?>/images/blue-pin.png" alt="" class="mob-icon"/>
+                <h5 class="small-title text-center seq_">STEP 3: Celebrate</h5>
+                <p class="text seq_">Congratulations! You have taken the first step
+                in achieving your financial goals.</p>
+            </div>
+        </div>
+        <div class="sep-line">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                     width="31px" height="224px" viewBox="0 0 31 224" enable-background="new 0 0 31 224" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FDB177" stroke-width="3" stroke-miterlimit="10" d="
+                    M15.422,10.422c1.933,0,3.5,1.567,3.5,3.5c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5C11.922,11.988,13.489,10.422,15.422,10.422
+                    z"/>
+                <line opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="17" y1="35" x2="17" y2="219.843"/>
+                </svg>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                     width="31px" height="224px" viewBox="0 0 31 224" enable-background="new 0 0 31 224" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#F85F82" stroke-width="3" stroke-miterlimit="10" d="
+                    M15.422,10.422c1.933,0,3.5,1.567,3.5,3.5c0,1.933-1.567,3.5-3.5,3.5s-3.5-1.567-3.5-3.5C11.922,11.988,13.489,10.422,15.422,10.422
+                    z"/>
+                <line opacity="0.1" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" x1="17" y1="35" x2="17" y2="219.843"/>
+                </svg>
+        </div>
+    </div>
+</section>
+<section class="section section_05 clearfix" id="section5">
+    <div class="poster-boxes clearfix">
+        <?php
+            $args = array( 
+                'posts_per_page' => 1, 
+                'offset'=> 1, 
+                'category_name' => 'blog',
+            );
+            $myposts = get_posts( $args );
+            foreach ( $myposts as $key => $post ) : setup_postdata( $post ); 
+        ?>
+        <div class="medium-6 column">
+            <div class="poster table left_">
+                <div class="cell">
+                    <h5 class="medium-title"><?php the_title(); ?></h5>
+                    <div class="text_"><?php echo wp_trim_words( get_the_content(), 30, '...' );?></div>
+                    <a href="<?php the_permalink(); ?>" id="sign-up-button" class="button round">Read more </a>
+                </div>
+            </div>
+        </div>
+        <?php endforeach; 
+        wp_reset_postdata();?>
+        <?php
+            $args = array( 
+                'posts_per_page' => 1, 
+                'offset'=> 0, 
+                'category_name' => 'blog',
+            );
+            $myposts = get_posts( $args );
+            foreach ( $myposts as $key => $post ) : setup_postdata( $post ); 
+        ?>
+        <div class="medium-6 column">
+            <div class="poster table right_">
+                <div class="cell">
+                    <h5 class="medium-title"><?php the_title(); ?></h5>
+                    <div class="text_"><?php echo wp_trim_words( get_the_content(), 30, '...' );?></div>
+                    <a href="<?php the_permalink(); ?>" id="sign-up-button" class="button round">Read more </a>
+                </div>
+            </div>
+        </div>
+        <?php endforeach; 
+        wp_reset_postdata();?>
+    </div>    
+    <div class="form-holder clearfix testimonial-sec">
+        <h3 class="large-title text-center">Testimonials</h3>        
+        <div class="row">
+            <?php 
+                $args = array(
+                        'post_type'         => 'testimonial',
+                        'orderby'           => 'date',
+                        'order'             => 'DESC',
+                        'paged'             => get_query_var( 'paged' ),
+                    );
+                $wp_query = new WP_Query($args);
+            ?>
+            <?php if ( $wp_query->have_posts() ) while ( $wp_query->have_posts() ) :$wp_query->the_post(); ?>
+            <div class="medium-4 column">
+                <?php the_content(); ?>
+            </div>
+            <?php endwhile; ?>
+            <a class="button round item" href="<?php echo esc_url( home_url( '' ) ); ?>/testimonials/" id="testimonial-button" style="top: 0px; opacity: 1;">See more testimonials</a>
+        </div>        
+    </div>
+</section>   
+<script type='text/javascript' src='<?php bloginfo('template_url')?>/js/jquery.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url')?>/js/jquery.easing.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url')?>/js/jquery.gsap.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url')?>/js/TweenLite.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url')?>/js/CSSPlugin.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url')?>/js/global.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url')?>/js/home.js'></script>
+<?php get_footer(); ?>
